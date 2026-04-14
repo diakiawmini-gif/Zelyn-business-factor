@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDevPro - Professional Web Development Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                </div>
+                <span>WebDev<span class="logo-accent">Pro</span></span>
+            </a>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-primary">Get Started</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <canvas id="heroCanvas"></canvas>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="badge">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                Professional Web Development Services
+            </div>
+            <h1>Transform Your<br><span class="gradient-text">Digital Presence</span></h1>
+            <p>I create stunning, high-performance websites for brands, stores, and businesses. From sleek portfolios to powerful e-commerce platforms, I bring your vision to life.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary btn-lg">
+                    Start Your Project
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+                <a href="#portfolio" class="btn btn-outline btn-lg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                    View My Work
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Projects Delivered</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">3+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Services</span>
+                <h2>What I Can Build For You</h2>
+                <p>From simple landing pages to complex web applications, I deliver high-quality solutions tailored to your specific needs.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon icon-pink">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <line x1="4.93" y1="4.93" x2="9.17" y2="9.17"></line>
+                            <line x1="14.83" y1="14.83" x2="19.07" y2="19.07"></line>
+                            <line x1="14.83" y1="9.17" x2="19.07" y2="4.93"></line>
+                            <line x1="14.83" y1="9.17" x2="18.36" y2="5.64"></line>
+                            <line x1="4.93" y1="19.07" x2="9.17" y2="14.83"></line>
+                        </svg>
+                    </div>
+                    <h3>Brand Websites</h3>
+                    <p>Stunning portfolio and brand showcase websites that make a lasting impression. Perfect for creatives, agencies, and professionals.</p>
+                    <ul class="service-features">
+                        <li><span class="dot dot-pink"></span>Custom Design</li>
+                        <li><span class="dot dot-pink"></span>SEO Optimized</li>
+                        <li><span class="dot dot-pink"></span>Mobile Responsive</li>
+                        <li><span class="dot dot-pink"></span>Fast Loading</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price gradient-text">From $999</span>
+                        <a href="#contact" class="btn btn-ghost">Get Quote <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon icon-blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                    </div>
+                    <h3>E-Commerce Stores</h3>
+                    <p>Full-featured online stores with secure payments, inventory management, and seamless checkout experiences.</p>
+                    <ul class="service-features">
+                        <li><span class="dot dot-blue"></span>Payment Integration</li>
+                        <li><span class="dot dot-blue"></span>Product Management</li>
+                        <li><span class="dot dot-blue"></span>Cart & Checkout</li>
+                        <li><span class="dot dot-blue"></span>Order Tracking</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price gradient-text">From $2,499</span>
+                        <a href="#contact" class="btn btn-ghost">Get Quote <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon icon-purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Business Websites</h3>
+                    <p>Professional corporate websites that establish credibility and drive conversions for your business.</p>
+                    <ul class="service-features">
+                        <li><span class="dot dot-purple"></span>Lead Generation</li>
+                        <li><span class="dot dot-purple"></span>CRM Integration</li>
+                        <li><span class="dot dot-purple"></span>Analytics</li>
+                        <li><span class="dot dot-purple"></span>Multi-language</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price gradient-text">From $1,499</span>
+                        <a href="#contact" class="btn btn-ghost">Get Quote <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon icon-emerald">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Custom Web Apps</h3>
+                    <p>Tailored web applications with advanced functionality, dashboards, and user management systems.</p>
+                    <ul class="service-features">
+                        <li><span class="dot dot-emerald"></span>User Authentication</li>
+                        <li><span class="dot dot-emerald"></span>Database Design</li>
+                        <li><span class="dot dot-emerald"></span>API Development</li>
+                        <li><span class="dot dot-emerald"></span>Cloud Deployment</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price gradient-text">From $3,999</span>
+                        <a href="#contact" class="btn btn-ghost">Get Quote <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon icon-orange">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                        </svg>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-first approach ensuring your website looks perfect on every device and screen size.</p>
+                    <ul class="service-features">
+                        <li><span class="dot dot-orange"></span>Mobile Optimized</li>
+                        <li><span class="dot dot-orange"></span>Cross-browser</li>
+                        <li><span class="dot dot-orange"></span>Touch Friendly</li>
+                        <li><span class="dot dot-orange"></span>Performance Tuned</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price gradient-text">Included</span>
+                        <a href="#contact" class="btn btn-ghost">Get Quote <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon icon-yellow">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                    </div>
+                    <h3>Performance Optimization</h3>
+                    <p>Speed up your existing website with advanced optimization techniques for better user experience.</p>
+                    <ul class="service-features">
+                        <li><span class="dot dot-yellow"></span>Speed Audit</li>
+                        <li><span class="dot dot-yellow"></span>Code Optimization</li>
+                        <li><span class="dot dot-yellow"></span>CDN Setup</li>
+                        <li><span class="dot dot-yellow"></span>Caching Strategy</li>
+                    </ul>
+                    <div class="service-footer">
+                        <span class="service-price gradient-text">From $499</span>
+                        <a href="#contact" class="btn btn-ghost">Get Quote <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Pricing</span>
+                <h2>Transparent Pricing</h2>
+                <p>Choose the perfect package for your needs. All prices are one-time fees with no hidden costs.</p>
+                <div class="pricing-toggle">
+                    <span id="onetimeLabel" class="active">One-time Payment</span>
+                    <label class="switch">
+                        <input type="checkbox" id="pricingToggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span id="maintenanceLabel">With Maintenance <span class="save-badge">Save 20%</span></span>
+                </div>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <p>Perfect for personal portfolios and small landing pages</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="price" data-onetime="999" data-maintenance="799">$999</span>
+                        <span class="period">one-time</span>
+                    </div>
+                    <div class="delivery-time">Delivery: 1-2 weeks</div>
+                    <ul class="pricing-features">
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Single Page Website</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Mobile Responsive Design</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Basic SEO Setup</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Contact Form Integration</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>2 Revision Rounds</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Social Media Links</li>
+                        <li class="disabled"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>E-commerce Functionality</li>
+                        <li class="disabled"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>Custom Animations</li>
+                        <li class="disabled"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>CMS Integration</li>
+                        <li class="disabled"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>Priority Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary w-full">Get Started</a>
+                </div>
+
+                <div class="pricing-card popular">
+                    <div class="popular-badge">
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                        Most Popular
+                    </div>
+                    <div class="pricing-header">
+                        <h3>Business</h3>
+                        <p>Ideal for small businesses and professional services</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="price" data-onetime="2499" data-maintenance="1999">$2,499</span>
+                        <span class="period">one-time</span>
+                    </div>
+                    <div class="delivery-time">Delivery: 2-3 weeks</div>
+                    <ul class="pricing-features">
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Up to 5 Pages</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Mobile Responsive Design</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Advanced SEO Setup</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Contact Form + Map</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Unlimited Revisions</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Social Media Integration</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Blog Setup</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Custom Animations</li>
+                        <li class="disabled"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>E-commerce (up to 10 products)</li>
+                        <li class="disabled"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>Priority Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary w-full">Get Started</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>E-Commerce</h3>
+                        <p>Full-featured online store with all essentials</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="price" data-onetime="3999" data-maintenance="3499">$3,999</span>
+                        <span class="period">one-time</span>
+                    </div>
+                    <div class="delivery-time">Delivery: 3-4 weeks</div>
+                    <ul class="pricing-features">
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Up to 10 Pages</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Mobile Responsive Design</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Complete SEO Package</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Payment Gateway Setup</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Unlimited Revisions</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Product Management</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Shopping Cart & Checkout</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Order Tracking System</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Inventory Management</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Priority Support (30 days)</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary w-full">Get Started</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <p>Custom solutions for large-scale projects</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="price-custom">Custom Quote</span>
+                    </div>
+                    <div class="delivery-time">Delivery: Custom timeline</div>
+                    <ul class="pricing-features">
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Unlimited Pages</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Custom Web Application</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Database Design</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>User Authentication System</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>API Development</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Third-party Integrations</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Admin Dashboard</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Analytics & Reporting</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Dedicated Support</li>
+                        <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Maintenance Package</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary w-full">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="addons-section">
+                <h3>Optional Add-ons</h3>
+                <div class="addons-grid">
+                    <div class="addon-item"><span class="addon-price">$150</span><span class="addon-name">Additional Page</span></div>
+                    <div class="addon-item"><span class="addon-price">$300</span><span class="addon-name">Blog Setup</span></div>
+                    <div class="addon-item"><span class="addon-price">$400</span><span class="addon-name">Multilingual Support</span></div>
+                    <div class="addon-item"><span class="addon-price">$250</span><span class="addon-name">Advanced Animations</span></div>
+                    <div class="addon-item"><span class="addon-price">$200</span><span class="addon-name">Custom Illustrations</span></div>
+                    <div class="addon-item"><span class="addon-price">$300</span><span class="addon-name">Speed Optimization</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Portfolio</span>
+                <h2>Featured Projects</h2>
+                <p>A selection of my recent work across various industries and project types.</p>
+            </div>
+
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="brand">Brand</button>
+                <button class="filter-btn" data-filter="webapp">Web App</button>
+                <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-card" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80" alt="Luxe Fashion Store">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-badge ecommerce">E-Commerce</span>
+                            <div class="portfolio-actions">
+                                <button class="btn btn-sm btn-view" onclick="openModal('Luxe Fashion Store', 'A premium fashion e-commerce platform with seamless shopping experience, advanced filtering, and secure checkout.', 'React, Node.js, Stripe, MongoDB', '10K+ users, $500K+ sales, 4.9 rating', 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80')">View Details</button>
+                                <a href="#" class="btn btn-sm btn-live">Live Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Luxe Fashion Store</h3>
+                        <p>A premium fashion e-commerce platform with seamless shopping experience.</p>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Stripe</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="business">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80" alt="TechStart Agency">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-badge business">Business</span>
+                            <div class="portfolio-actions">
+                                <button class="btn btn-sm btn-view" onclick="openModal('TechStart Agency', 'Modern agency website with stunning animations, case studies, and lead generation forms.', 'Next.js, Framer Motion, Tailwind, Vercel', '300+ leads, 12% conversion, 0.8s load', 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80')">View Details</button>
+                                <a href="#" class="btn btn-sm btn-live">Live Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>TechStart Agency</h3>
+                        <p>Modern agency website with stunning animations and lead generation.</p>
+                        <div class="portfolio-tags">
+                            <span>Next.js</span>
+                            <span>Framer Motion</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="brand">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80" alt="Artisan Coffee Brand">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-badge brand">Brand</span>
+                            <div class="portfolio-actions">
+                                <button class="btn btn-sm btn-view" onclick="openModal('Artisan Coffee Brand', 'Elegant brand website showcasing artisan coffee products with rich storytelling and visual appeal.', 'Vue.js, GSAP, Shopify, Figma', '50K+ visitors, 4:30 engagement, 25% bounce', 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80')">View Details</button>
+                                <a href="#" class="btn btn-sm btn-live">Live Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Artisan Coffee Brand</h3>
+                        <p>Elegant brand website showcasing artisan coffee products.</p>
+                        <div class="portfolio-tags">
+                            <span>Vue.js</span>
+                            <span>GSAP</span>
+                            <span>Shopify</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="webapp">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80" alt="FitPro Dashboard">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-badge webapp">Web App</span>
+                            <div class="portfolio-actions">
+                                <button class="btn btn-sm btn-view" onclick="openModal('FitPro Dashboard', 'Comprehensive fitness tracking dashboard with workout plans, progress charts, and social features.', 'React, TypeScript, D3.js, Firebase', '25K+ users, 1M+ workouts, 78% retention', 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80')">View Details</button>
+                                <a href="#" class="btn btn-sm btn-live">Live Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>FitPro Dashboard</h3>
+                        <p>Comprehensive fitness tracking dashboard with workout plans.</p>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>D3.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="portfolio">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80" alt="Architect Portfolio">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-badge portfolio">Portfolio</span>
+                            <div class="portfolio-actions">
+                                <button class="btn btn-sm btn-view" onclick="openModal('Architect Portfolio', 'Minimalist portfolio website for an architecture firm showcasing projects with immersive galleries.', 'Next.js, Three.js, Prismic, AWS', '80+ projects, 12 awards, 200+ inquiries', 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80')">View Details</button>
+                                <a href="#" class="btn btn-sm btn-live">Live Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Architect Portfolio</h3>
+                        <p>Minimalist portfolio website for an architecture firm.</p>
+                        <div class="portfolio-tags">
+                            <span>Next.js</span>
+                            <span>Three.js</span>
+                            <span>Prismic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80" alt="FoodDelivery Pro">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-badge ecommerce">E-Commerce</span>
+                            <div class="portfolio-actions">
+                                <button class="btn btn-sm btn-view" onclick="openModal('FoodDelivery Pro', 'Full-featured food delivery platform with real-time tracking, reviews, and restaurant management.', 'React Native, Node.js, Socket.io, PostgreSQL', '100K+ orders, 500+ restaurants, 4.8 rating', 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80')">View Details</button>
+                                <a href="#" class="btn btn-sm btn-live">Live Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>FoodDelivery Pro</h3>
+                        <p>Full-featured food delivery platform with real-time tracking.</p>
+                        <div class="portfolio-tags">
+                            <span>React Native</span>
+                            <span>Node.js</span>
+                            <span>Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-badge">About Me</span>
+                    <h2>Crafting Digital <span class="gradient-text">Experiences</span></h2>
+                    <p>I'm a passionate full-stack developer with over 3 years of experience creating beautiful, functional websites and web applications. My journey started with a curiosity for how things work on the web, and it has evolved into a career dedicated to helping businesses succeed online.</p>
+                    <p>I specialize in modern web technologies and stay up-to-date with the latest trends to deliver cutting-edge solutions. Every project is an opportunity to create something amazing.</p>
+                    <div class="about-stats-row">
+                        <div class="about-stat">
+                            <div class="about-stat-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="8" r="7"></circle>
+                                    <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="about-stat-number">50+ Projects</div>
+                                <div class="about-stat-label">Successfully delivered</div>
+                            </div>
+                        </div>
+                        <div class="about-stat">
+                            <div class="about-stat-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="about-stat-number">3+ Years</div>
+                                <div class="about-stat-label">Industry experience</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>React / Next.js</span>
+                                <span class="skill-percent">95%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>TypeScript</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Node.js</span>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 88%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>UI/UX Design</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Database Design</span>
+                                <span class="skill-percent">82%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 82%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>DevOps / Cloud</span>
+                                <span class="skill-percent">78%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-fill" style="width: 78%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <h3>My Values</h3>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+                                <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+                                <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
+                                <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                            </svg>
+                        </div>
+                        <h4>Fast Delivery</h4>
+                        <p>I deliver projects on time without compromising on quality.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </div>
+                        <h4>Passionate</h4>
+                        <p>I genuinely love what I do and put my heart into every project.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <circle cx="12" cy="12" r="6"></circle>
+                                <circle cx="12" cy="12" r="2"></circle>
+                            </svg>
+                        </div>
+                        <h4>Results-Driven</h4>
+                        <p>Focused on creating websites that achieve your business goals.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h4>Collaborative</h4>
+                        <p>I work closely with clients to bring their vision to life.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-section">
+                <h3>My Process</h3>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="process-number">01</div>
+                        <div class="process-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                            </svg>
+                        </div>
+                        <h4>Discovery</h4>
+                        <p>Understanding your goals, audience, and requirements through in-depth consultation.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-number">02</div>
+                        <div class="process-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h4>Design & Development</h4>
+                        <p>Creating stunning designs and building robust, scalable solutions.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-number">03</div>
+                        <div class="process-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
+                                <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
+                            </svg>
+                        </div>
+                        <h4>Launch & Support</h4>
+                        <p>Deploying your website and providing ongoing maintenance and support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Contact</span>
+                <h2>Let's Work Together</h2>
+                <p>Have a project in mind? I'd love to hear about it. Send me a message and let's create something amazing.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-cards">
+                        <a href="mailto:hello@webdevpro.com" class="contact-card">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="contact-label">Email</div>
+                                <div class="contact-value">hello@webdevpro.com</div>
+                            </div>
+                        </a>
+                        <a href="tel:+15551234567" class="contact-card">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="contact-label">Phone</div>
+                                <div class="contact-value">+1 (555) 123-4567</div>
+                            </div>
+                        </a>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="contact-label">Location</div>
+                                <div class="contact-value">San Francisco, CA</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-section">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                            <a href="https://github.com" target="_blank" aria-label="GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                </svg>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="quick-response">
+                        <div class="quick-response-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="quick-response-title">Quick Response</div>
+                            <p>I typically respond to all inquiries within 24 hours. For urgent projects, feel free to call me directly.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="service">Service Needed</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="brand">Brand Website</option>
+                                    <option value="ecommerce">E-Commerce Store</option>
+                                    <option value="business">Business Website</option>
+                                    <option value="webapp">Custom Web App</option>
+                                    <option value="redesign">Website Redesign</option>
+                                    <option value="maintenance">Maintenance</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select budget</option>
+                                    <option value="under-1k">Under $1,000</option>
+                                    <option value="1k-2k">$1,000 - $2,500</option>
+                                    <option value="2k-5k">$2,500 - $5,000</option>
+                                    <option value="5k+">$5,000+</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, goals, and timeline..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                            Send Message
+                        </button>
+                    </form>
+
+                    <div id="successMessage" class="success-message" style="display: none;">
+                        <div class="success-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Message Sent!</h3>
+                        <p>Thank you for reaching out. I'll review your message and get back to you within 24 hours.</p>
+                        <button type="button" class="btn btn-outline" onclick="resetForm()">Send Another Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <span>WebDev<span class="logo-accent">Pro</span></span>
+                    </a>
+                    <p>Creating stunning, high-performance websites that help businesses succeed in the digital world. Let's build something amazing together.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com" target="_blank" aria-label="GitHub">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Brand Websites</a></li>
+                        <li><a href="#services">E-Commerce</a></li>
+                        <li><a href="#services">Business Sites</a></li>
+                        <li><a href="#services">Web Apps</a></li>
+                        <li><a href="#services">Maintenance</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#portfolio">Case Studies</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 WebDevPro. All rights reserved.</p>
+                <p>Made with <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg> for creators everywhere</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modal -->
+    <div id="portfolioModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <img id="modalImage" src="" alt="">
+            <div class="modal-body">
+                <h3 id="modalTitle"></h3>
+                <p id="modalDescription"></p>
+                <div id="modalStats" class="modal-stats"></div>
+                <div id="modalTags" class="modal-tags"></div>
+                <div class="modal-actions">
+                    <a href="#" class="btn btn-primary">View Live Site</a>
+                    <a href="#" class="btn btn-outline">View Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
